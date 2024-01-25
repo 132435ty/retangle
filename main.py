@@ -1,9 +1,9 @@
-def factorial(n):
-    if z == 0:
-        return 1
-    else:
-        return z * factorial(z-1)
+def rectangle(length, width):
+    p = length * width
+    return p
 
-number = int(input("введи число: "))
-out = factorial(number)
-print(f"факториал числа {number} равен {out}")
+length = int(input("Введите длину прямоугольника: "))
+width = int(input("Введите ширину прямоугольника: "))
+
+x = rectangle(length, width)
+print("Площадь прямоугольника:", x)
